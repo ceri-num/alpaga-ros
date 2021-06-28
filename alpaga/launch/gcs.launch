@@ -1,0 +1,8 @@
+<launch>
+
+    <!-- <machine name="uav" address="192.168.10.253" ros-root="$(env ROS_ROOT)" ros-package-path="$(env ROS_PACKAGE_PATH)"  />
+
+    <machine name="gcs" address="192.168.10.254" ros-root="$(env ROS_ROOT)" ros-package-path="$(env ROS_PACKAGE_PATH)" /> -->
+
+     <include file="$(find xbee_bridge)/gcs.launch" />
+</launch>

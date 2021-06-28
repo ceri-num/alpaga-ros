@@ -1,0 +1,6 @@
+<launch>
+     <node pkg="pi_gpio" type="pi_gpio_service.py" name="pump_relay" output="screen">
+        <param name = "gpio_pin" value = "11" />
+        <param name = "timed_delay" value = "3" />
+    </node>
+</launch>

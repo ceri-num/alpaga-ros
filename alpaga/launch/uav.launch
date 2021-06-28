@@ -1,0 +1,4 @@
+<launch>
+      <include file="$(find xbee_bridge)/uav.launch" />
+      <include file="$(find pi_gpio)/pump_relay.launch" />
+</launch>
